@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeComponent implements OnInit {
 
+public name ="chandrashekar";
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  employeeDetails(){
+    return this.name + "  infosys";
+  }
 }
